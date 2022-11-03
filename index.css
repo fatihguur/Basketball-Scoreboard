@@ -1,15 +1,17 @@
 body {
     margin: 0;
     text-align: center;
-    
+    background-color: #173983;
 }
 
 .score {
     background: #0a0001;
     font-size: 90px;
+    font-family: 'Poppins', sans-serif;
     color: #F94F6D;
     width: 120px;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .container {
@@ -20,13 +22,24 @@ body {
 button {
     background: none;
     padding: 10px;
+    color: white;
+    border-color: white;
+    width: 50px;
 }
 
 h3{
     font-size: 50px;
     font-family: 'Verdana';
-    
+    color: white;    
 }
+
+.reset{
+    width: 200px;
+    top: 500px;
+}
+
+
+
 
 
 
